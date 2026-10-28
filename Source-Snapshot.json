@@ -1,0 +1,66 @@
+{
+  "name": "Company",
+  "packageId": "company.presence",
+  "assemblyName": "Company",
+  "repositoryName": "rimworld-psyche-company",
+  "workshopId": "3805755118",
+  "metadataVersions": [
+    "1.6",
+    "1.7"
+  ],
+  "originalSourceUnit": "Psyche Mods/Company",
+  "sourceSnapshotUtc": "2026-10-28T17:10:10.824Z",
+  "sourceFileFingerprints": [
+    {
+      "path": "About/About.xml",
+      "sha256": "215534D4620D502DBB5E946C0FC9DEBD5660A7B47E62748429BE3B803B721412",
+      "bytes": 2458
+    },
+    {
+      "path": "About/Preview.png",
+      "sha256": "8B84FF992035587BB5A221CD626D221EC66CAC53F72D5E76EBC6C5090759E6B7",
+      "bytes": 98516
+    },
+    {
+      "path": "About/PublishedFileId.txt",
+      "sha256": "161FA1CD54BB74ECEE0E5F8F1FE5BCC137F9E0B54AB1C122788741BB14E056B9",
+      "bytes": 10
+    },
+    {
+      "path": "Defs/ThoughtDefs/Company_Thoughts.xml",
+      "sha256": "8E4CC54DFFB3A867B41994E3246C7A1A7D2D419ABD387356A666CEC38485D1E9",
+      "bytes": 3690
+    },
+    {
+      "path": "Source/Company/Bridges.cs",
+      "sha256": "5C8700169139762FD5566AB7859780B354A4DF0D22E6774BF92186F62F82A44E",
+      "bytes": 9035
+    },
+    {
+      "path": "Source/Company/Company.csproj",
+      "sha256": "98D598CF202085BE5D0F78C4D0E95262D67CBFA362875259941C9D9151839FFB",
+      "bytes": 1629
+    },
+    {
+      "path": "Source/Company/CompanyCore.cs",
+      "sha256": "12F228333CC5D43312CECC9AE0E9C7A00A21E89A9532042094387C0D2E8AF273",
+      "bytes": 3115
+    },
+    {
+      "path": "Source/Company/Presences.cs",
+      "sha256": "2EED52898F32F2DE102F9115FCD2B19473F674C83721EFB9F7D2651A4857AB5D",
+      "bytes": 8959
+    },
+    {
+      "path": "Source/Company/Settings.cs",
+      "sha256": "E63C5DB869CB4FB492424C2C074A1B201EF9EC370E3CE5B73469058DF22700D8",
+      "bytes": 3550
+    }
+  ],
+  "stagedProjectAdjustments": [],
+  "build16": "NOT_RUN_THIS_PASS",
+  "build17": "COMPILED_AGAINST_LOCAL_1.7_API",
+  "nativePlaytest": "NOT_RUN_THIS_PUBLICATION_PASS",
+  "gameplaySourceModified": false,
+  "compiled17SHA256": "D358841A2C408F18B0F13BE2678C1752B302405131AE99F71A70F2C1B533A60A"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Company</name>
+  <author>T&amp;B Modding</author>
+  <packageId>company.presence</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>They keep seeing them.
+
+Somewhere between half and two thirds of bereaved people see, hear or feel the presence of the person they lost. They hold conversations. They turn to say something before they remember. It is one of the most common parts of grief and almost nobody talks about it, because they are afraid of what it means.
+
+It does not mean anything is wrong with them. This mod does not treat it as though it does.
+
+How it goes
+A colonist who loses someone they were close to may start seeing them. They will stop what they are doing and talk to somebody who is not there. Other colonists notice.
+
+It helps, and that is the difficulty
+Being with them eases the worst of it. But it holds the grief still rather than moving it along - a colonist in company is not getting better, they are being comforted by the thing that is stopping them. Every other kind of comfort in this set moves mourning forward. This one does not.
+
+It usually passes
+The presence fades as the grief does, and most colonists come out of it on their own.
+
+If the loss never resolves, it does not fade. A body left unburied keeps grief stuck, and someone stuck in grief can stay in company indefinitely. That is the colonist who never quite came back.
+
+Who does not see anyone
+A Psychopath does not. A full Sociopath does not, unless it was someone inside their small circle. You cannot be haunted by somebody you never let matter.
+
+Settings
+Options - Mod settings - Company. Adjust how likely it is, how much comfort it gives, and how much it holds grief back. The whole thing can be switched off.
+
+Works well with Grief, which it reads for how raw a loss still is, but does not require it.
+
+Requires Harmony. Safe to add to an existing save. RimWorld 1.6, no DLC needed.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>grief.mourning</li>
+    <li>sociopath.trait</li>
+    <li>solace.comfort</li>
+    <li>mettle.growth</li>
+  </loadAfter>
+</ModMetaData>

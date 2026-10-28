@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!--
+    Being with them. The comfort is real and it is not treated as a symptom: no penalty for the
+    presence itself, no mental break, nothing that frames it as the colonist going wrong. What it
+    costs is elsewhere, in the grief it holds still.
+  -->
+  <ThoughtDef>
+    <defName>CO_TheyWereHere</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>4</stackLimit>
+    <stackedEffectMultiplier>0.85</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>they were here</label>
+        <description>I know. I know what it means that I can see them. I do not care, and I am not going to stop.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- The first time, before they have made their peace with it happening at all. -->
+  <ThoughtDef>
+    <defName>CO_FirstTime</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>I saw them</label>
+        <description>They were standing there. Not a memory, not a dream. Standing there, and then not.\n\nI do not know what to do with that. I have not told anybody.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- When it finally stops. Not a relief, exactly. -->
+  <ThoughtDef>
+    <defName>CO_TheyStopped</defName>
+    <durationDays>12</durationDays>
+    <stackLimit>2</stackLimit>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>they stopped coming</label>
+        <description>I have not seen them in a while now. I am supposed to be glad about that.\n\nIt turns out losing them twice is not much easier than losing them once.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    Watching someone do this. Uneasy rather than frightening, and worse from colonists who have
+    never lost anybody themselves.
+  -->
+  <ThoughtDef>
+    <defName>CO_SawThemTalking</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>8</durationDays>
+    <stackLimit>6</stackLimit>
+    <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>talking to somebody who isn't there</label>
+        <baseOpinionOffset>-8</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>CO_SawThemTalkingMood</thoughtToMake>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>CO_SawThemTalkingMood</defName>
+    <durationDays>4</durationDays>
+    <stackLimit>4</stackLimit>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>saw something I shouldn't have</label>
+        <description>They were having a whole conversation. Answering. Waiting for the answer.\n\nI backed off before they saw me. I do not know if that was the right thing to do.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--
+    Someone who has been through it themselves does not find it unsettling. They recognise it.
+    Requires Mettle for the trait to exist; without that mod nobody ever gets this.
+  -->
+  <ThoughtDef>
+    <defName>CO_IKnowWhatThatIs</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>12</durationDays>
+    <stackLimit>4</stackLimit>
+    <stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>I know what that is</label>
+        <baseOpinionOffset>14</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
